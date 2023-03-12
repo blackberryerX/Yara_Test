@@ -20,7 +20,7 @@ rule SH3
 {
   condition:
     hash.sha256(0, filesize) ==
-        "8cabc861a04b1bad7bc7daf997bac4a013a457a52bc7aa40f925182da4797d8d"
+        "e7542c38e0b979f920fb88b59b25c3d6ae433ca145f7758938b322a71accecae"
     
 }
 
@@ -28,7 +28,7 @@ rule SH4
 {
   condition:
     hash.sha256(0, filesize) ==
-        "43ce41be6eeaf3aa61a0ff9a28c045c75e6a104449a145a154eaaa6f36fda44f"
+        "72c3a786661ee9742cf1d0e3b99b89e976911ed87971695f08487cf42d7fc29d"
     
 }
 
@@ -36,7 +36,7 @@ rule SH5
 {
   condition:
     hash.md5(0, filesize) ==
-        "bd8344d3e2020669dd235bb644751d76"
+        "3f748c7c4b4abb3cd90102e483f4d3c6"
     
 }
 
